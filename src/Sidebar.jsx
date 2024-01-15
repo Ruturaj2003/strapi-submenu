@@ -12,7 +12,7 @@ const Sidebar = () => {
         <div className="sidebar-links">
           {sublinks.map((item) => {
             const { links, page, pageId } = item;
-            console.log(page);
+
             return (
               <article key={pageId}>
                 <h4>{page}</h4>
