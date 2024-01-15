@@ -1,5 +1,6 @@
 import { useGlobalContext } from './Context';
 import sublinks from './data';
+
 const NavLinks = () => {
   const { setPageId } = useGlobalContext();
   return (
@@ -10,10 +11,7 @@ const NavLinks = () => {
           <button
             key={pageId}
             className="nav-link"
-            onMouseEnter={() => {
-              setPageId(pageId);
-              console.log(pageId);
-            }}
+            onMouseEnter={() => setPageId(pageId)}
           >
             {page}
           </button>
