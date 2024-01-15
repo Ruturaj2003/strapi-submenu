@@ -284,6 +284,7 @@ nav {
   color: var(--white);
   letter-spacing: 3px;
   font-weight: 700;
+  cursor: pointer;
 }
 .toggle-btn {
   width: 2rem;
